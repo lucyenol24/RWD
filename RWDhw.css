@@ -12,6 +12,7 @@ h1 {
   border-radius: 8px;
   color: white;
   background-color: limegreen;
+  text-align: center;
 }
 
 h2 {
@@ -23,6 +24,12 @@ h2 {
   border-radius: 8px;
   color: white;
   background-color: limegreen;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: black;
 }
 
 input[type=text] {
@@ -63,5 +70,26 @@ input[type=email] {
   border: 2px solid gray;
   border-radius: 4px;
   background-color: forestgreen;
+  color: white;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  border-radius: 4px;
+  background-color: forestgreen;
+  color: white;
+}
+
+input[type=submit] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  border-radius: 4px;
+  background-color: palevioletred;
   color: white;
 }
