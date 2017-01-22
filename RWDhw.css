@@ -1,3 +1,8 @@
+body {
+  background-color: skyblue;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 h1 {
   width: 100%;
   padding: 12px 20px;
@@ -48,4 +53,15 @@ input[type=number] {
 
 input[type=number]:focus {
   background-color: lightcoral;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  border-radius: 4px;
+  background-color: forestgreen;
+  color: white;
 }
